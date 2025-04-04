@@ -4,6 +4,7 @@ import { FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
+    <section id="contact">
     <div className={styles.contactContainer}>
       <div className={styles.contactOptions}>
         <h2>Contact Us</h2>
@@ -23,6 +24,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

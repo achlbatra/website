@@ -25,8 +25,6 @@ a:hover{
 }
 
 .Navbar{
-  /* position: relative;
-  top: -320px; */
   height: 60px;
   width: 100vw;
   display: flex;
@@ -38,3 +36,34 @@ a:hover{
   box-shadow: 10px 10px 40px 5px rgb(22, 81, 145);
 }
 
+@media (max-width: 768px) {
+  .Navbar {
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: none;
+  }
+
+  .navlist {
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 0;
+    list-style: none;
+  }
+
+  .navlist li {
+    margin: 10px 0;
+  }
+
+  .Navbar img {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    left: 0px;
+  }
+}

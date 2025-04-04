@@ -6,6 +6,7 @@ import senior from "../assets/senior.jpg"
 function Services(){
   return (
     <>
+    <section id="services">
     <div className={styles.container}>
       <div className={styles.heading}><h3>Explore Our Tailored Health Insurance Solutions – Your Path to Protection Starts Here!</h3></div>
       <div className={styles.info}>
@@ -41,6 +42,7 @@ function Services(){
       </div>
       </div>
     </div>
+    </section>
     </>
   )
 }

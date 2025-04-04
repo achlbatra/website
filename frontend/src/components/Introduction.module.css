@@ -27,6 +27,35 @@ h2{
   padding: 10px;
   background-color: transparent;
   position: relative;
-  right: 
-  50px;
+  right: 50px;
+}
+
+@media (max-width: 768px) {
+
+  .box{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .leftintro, 
+  .rightintro {
+    width: 80%; 
+    font-size: 12px; 
+  }
+
+  .leftintro {
+    height: 200px; 
+    width: 200px;
+    background-size: contain;
+  }
+
+  .rightintro{
+    position: relative;
+    right: 10px;
+  }
+
 }

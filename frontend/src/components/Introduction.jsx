@@ -3,6 +3,7 @@ import styles from "./Introduction.module.css"
 function Introduction(){
   return (
     <>
+    <section id="intro">
     <div className={styles.box}>
     <div className={styles.leftintro}>
       
@@ -28,6 +29,7 @@ function Introduction(){
       
     </div>
     </div>
+    </section>
     </>
   )
 }
