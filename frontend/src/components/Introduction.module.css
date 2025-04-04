@@ -1,0 +1,32 @@
+.box{
+  height: 500px;
+  width: 100vw;
+  background-color: rgb(197, 224, 247);
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+h2{
+  text-align: center;
+}
+
+.leftintro{
+  width: 40%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../assets/intro.jpg");
+}
+
+.rightintro{
+  width: 40%;
+  padding: 10px;
+  background-color: transparent;
+  position: relative;
+  right: 
+  50px;
+}

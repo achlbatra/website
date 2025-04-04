@@ -1,0 +1,40 @@
+img{
+  position: relative;
+  top:3px;
+  height: 60px;
+  width: 150px;
+  background-color: white;
+}
+
+.navlist{
+  width: 700px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  font-size: 15px;
+  color: rgb(83, 106, 128);
+}
+
+.Navbar{
+  /* position: relative;
+  top: -320px; */
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(7, 70, 129);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 10px 10px 40px 5px rgb(22, 81, 145);
+}
+
